@@ -1,7 +1,7 @@
 %define rname ldetect
 %define name ruby-%{rname}
 %define version 0.0.2
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Ruby binding for libdetect
 Name: %{name}
@@ -10,7 +10,7 @@ Release: %{release}
 URL: http://people.mandriva.com/~pterjan/soft/ruby-ldetect/
 Source0: http://people.mandriva.com/~pterjan/soft/ruby-ldetect/download/%{name}-%{version}.tar.bz2
 License: GPL
-Group: Development/Other
+Group: Development/Ruby
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: ruby >= 1.8
 BuildRequires: ruby-devel ldetect-devel
