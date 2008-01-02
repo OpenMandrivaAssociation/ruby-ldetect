@@ -11,6 +11,7 @@ URL: http://people.mandriva.com/~pterjan/soft/ruby-ldetect/
 Source0: http://people.mandriva.com/~pterjan/soft/ruby-ldetect/download/%{name}-%{version}.tar.bz2
 License: GPL
 Group: Development/Ruby
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: ruby >= 1.8
 BuildRequires: ruby-devel ldetect-devel
 
