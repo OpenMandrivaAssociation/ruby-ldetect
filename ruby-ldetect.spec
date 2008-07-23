@@ -1,7 +1,7 @@
 %define rname ldetect
 %define name ruby-%{rname}
 %define version 0.0.2
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary: Ruby binding for libdetect
 Name: %{name}
