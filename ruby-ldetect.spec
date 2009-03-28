@@ -1,7 +1,7 @@
 %define rname ldetect
 %define name ruby-%{rname}
 %define version 0.0.2
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Ruby binding for libdetect
 Name: %{name}
@@ -13,7 +13,7 @@ License: GPL
 Group: Development/Ruby
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: ruby >= 1.8
-BuildRequires: ruby-devel ldetect-devel
+BuildRequires: ruby-devel, ldetect-devel >= 0.8.0
 
 %description
 Ruby/LDetect is a Ruby binding for Mandriva's libdetect.
