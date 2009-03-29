@@ -23,19 +23,19 @@ It allows hardware detection and mapping to known modules.
 %setup -q 
 
 %build
-ruby extconf.rb
+ruby extconf.rb --vendor
 make
 
 %install
 rm -rf %buildroot
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf %buildroot
 
 %files
 %defattr(-,root,root)
-%{ruby_sitearchdir}/*.so
+%{ruby_vendorarchdir}/*.so
 %doc ChangeLog README sample.rb
 
 
