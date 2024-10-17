@@ -7,7 +7,7 @@ Summary: Ruby binding for libdetect
 Name: %{name}
 Version: %{version}
 Release: %{release}
-URL: http://people.mandriva.com/~pterjan/soft/ruby-ldetect/
+URL: https://people.mandriva.com/~pterjan/soft/ruby-ldetect/
 Source0: http://people.mandriva.com/~pterjan/soft/ruby-ldetect/download/%{name}-%{version}.tar.bz2
 License: GPL
 Group: Development/Ruby
