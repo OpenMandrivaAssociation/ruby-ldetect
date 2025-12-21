@@ -13,6 +13,7 @@ License: GPL
 Group: Development/Ruby
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: ruby >= 1.8
+BuildRequires:	make
 BuildRequires: ruby-devel, ldetect-devel >= 0.8.0
 
 %description
